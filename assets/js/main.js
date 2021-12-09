@@ -10,12 +10,15 @@ import * as workouts from "../../model/data.js";
 //=============================
 // SIDE BAR
 //=============================
-/* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
+/* Set the width of the sidebar to 170px and the left margin of the page content to 170px */
 function openNav() {
-    document.getElementById("mySidebar").style.width = "170px";
+  document.getElementById("mySidebar").style.width = "170px";
     document.getElementById("main").style.marginLeft = "0";
+ 
+  
   }
   
+
   /* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
   function closeNav() {
     document.getElementById("mySidebar").style.width = "0";
